@@ -1,5 +1,35 @@
 # Changelog
 
+## [4.30.0](https://github.com/mvanhorn/cli-printing-press/compare/v4.29.0...v4.30.0) (2026-07-23)
+
+
+### Features
+
+* **platform:** enforce fleet output semantics ([#3687](https://github.com/mvanhorn/cli-printing-press/issues/3687)) ([0e72412](https://github.com/mvanhorn/cli-printing-press/commit/0e724120277ce6bc52204d7f24014adce0947b4e))
+* **platform:** generate multitenancy runtime core ([#3682](https://github.com/mvanhorn/cli-printing-press/issues/3682)) ([ae1f46b](https://github.com/mvanhorn/cli-printing-press/commit/ae1f46bafca1bc32417c678d4cfc9bab8dced19e))
+
+
+### Bug Fixes
+
+* **cli:** complete novel data-source declarations ([#3719](https://github.com/mvanhorn/cli-printing-press/issues/3719)) ([a9b35ee](https://github.com/mvanhorn/cli-printing-press/commit/a9b35eefef99a812ed0c67586047f75cecf5389d))
+* **cli:** disambiguate colliding dependent resources ([#3770](https://github.com/mvanhorn/cli-printing-press/issues/3770)) ([4efaabb](https://github.com/mvanhorn/cli-printing-press/commit/4efaabbf4c77662eadbf9741efa670d022b8d92f))
+* **cli:** emit runnable command examples ([#3722](https://github.com/mvanhorn/cli-printing-press/issues/3722)) ([dbe6a62](https://github.com/mvanhorn/cli-printing-press/commit/dbe6a624d02269d601d3e75a4e78bd9474f2002c))
+* **cli:** emit sync since-filter in UTC (Z), not a local offset ([#3672](https://github.com/mvanhorn/cli-printing-press/issues/3672)) ([fae90f6](https://github.com/mvanhorn/cli-printing-press/commit/fae90f6f348a8dbe20511c2ce3a3ab6f97c55add))
+* **cli:** generate complete Basic credential tests ([#3724](https://github.com/mvanhorn/cli-printing-press/issues/3724)) ([9a539cb](https://github.com/mvanhorn/cli-printing-press/commit/9a539cb2a624b9a6d6d7323a2fee5d349a275ad4))
+* **cli:** honor non-JSON request and response media types ([#3754](https://github.com/mvanhorn/cli-printing-press/issues/3754)) ([ac2ed6d](https://github.com/mvanhorn/cli-printing-press/commit/ac2ed6de07778736c165c2377c64202610ae4001))
+* **cli:** isolate explicit config credentials ([#3771](https://github.com/mvanhorn/cli-printing-press/issues/3771)) ([e3bcfb2](https://github.com/mvanhorn/cli-printing-press/commit/e3bcfb29795faeee030e618845e8e05c1479b305))
+* **cli:** make generated synonym registration race-safe ([#3752](https://github.com/mvanhorn/cli-printing-press/issues/3752)) ([4dfbcab](https://github.com/mvanhorn/cli-printing-press/commit/4dfbcabd4d12ddc88fb3af5a49b9956d0291963d))
+* **cli:** narrow Cloudflare HTML challenge detection ([#3717](https://github.com/mvanhorn/cli-printing-press/issues/3717)) ([1b0611a](https://github.com/mvanhorn/cli-printing-press/commit/1b0611a7d9f1e5c255f31815d06479c9ffd3f9e2))
+* **cli:** preserve CLI and MCP command reachability ([#3731](https://github.com/mvanhorn/cli-printing-press/issues/3731)) ([1669d17](https://github.com/mvanhorn/cli-printing-press/commit/1669d176e1309c40b813334c5b4412c107368d6a))
+* **cli:** preserve deep hierarchy sync identity ([#3729](https://github.com/mvanhorn/cli-printing-press/issues/3729)) ([973d760](https://github.com/mvanhorn/cli-printing-press/commit/973d760cced23bdeadcf8056e0685f7f118a9f79))
+* **cli:** preserve dry-run read provenance and cache boundaries ([#3769](https://github.com/mvanhorn/cli-printing-press/issues/3769)) ([775feb8](https://github.com/mvanhorn/cli-printing-press/commit/775feb8a6c8bcb798ca81a9edc590cac3849d312))
+* **cli:** prevent derived command surface collisions ([#3757](https://github.com/mvanhorn/cli-printing-press/issues/3757)) ([ecddccf](https://github.com/mvanhorn/cli-printing-press/commit/ecddccf91cd857d6facf340f89dc82435808552b))
+* **cli:** reject unusable auth declarations ([#3728](https://github.com/mvanhorn/cli-printing-press/issues/3728)) ([471a3c3](https://github.com/mvanhorn/cli-printing-press/commit/471a3c3fb227092ad407e66871592928c4775d13))
+* **cli:** sandbox generated tests and verify the sandbox holds ([#3692](https://github.com/mvanhorn/cli-printing-press/issues/3692)) ([6ac616f](https://github.com/mvanhorn/cli-printing-press/commit/6ac616f02adc5479373e55cad0f72344e66f22fe)), closes [#3690](https://github.com/mvanhorn/cli-printing-press/issues/3690)
+* **cli:** stop doctor from reporting an unverifiable credential probe as ok ([#3716](https://github.com/mvanhorn/cli-printing-press/issues/3716)) ([be3a0df](https://github.com/mvanhorn/cli-printing-press/commit/be3a0df1a94e59f2f0c44d80f0afb322fdc865ab))
+* **cli:** validate generated unit tests ([#3748](https://github.com/mvanhorn/cli-printing-press/issues/3748)) ([9cb9fe6](https://github.com/mvanhorn/cli-printing-press/commit/9cb9fe6940e60153bdbf041f2a4f159cc77d5442))
+* **generator:** reject malformed cookie imports ([#3707](https://github.com/mvanhorn/cli-printing-press/issues/3707)) ([7cd1cf6](https://github.com/mvanhorn/cli-printing-press/commit/7cd1cf6fc1b894776ac7495a0f82e9cc0276eeee))
+
 ## [4.29.0](https://github.com/mvanhorn/cli-printing-press/compare/v4.28.0...v4.29.0) (2026-07-16)
 
 
