@@ -36,6 +36,7 @@ func TestGeneratedAgentsGuideRendersPortableAgentContract(t *testing.T) {
 	assert.Contains(t, content, `cmd.Annotations["pp:data-source"]`)
 	assert.Contains(t, content, `flags.agentSource`, "novel commands should document runtime provenance overrides")
 	assert.Contains(t, content, `local+live`, "novel commands should document mixed runtime provenance")
+	assert.Contains(t, content, "set its `meta.source` to `local+live` too", "existing response envelopes must report mixed provenance instead of masking the runtime fallback")
 	assert.Contains(t, content, "Refuse `--data-source` modes", "novel commands should reject source modes they cannot honor")
 	assert.Contains(t, content, "README.md")
 	assert.Contains(t, content, "SKILL.md")
